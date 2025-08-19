@@ -1,0 +1,49 @@
+{
+  "description": "Configuration and sample data for the Iris Classification API",
+  "model_metadata": {
+    "model_type": "RandomForestClassifier",
+    "problem_type": "classification",
+    "features": [
+      "SepalLengthCm",
+      "SepalWidthCm",
+      "PetalLengthCm",
+      "PetalWidthCm",
+      "sepal_area",
+      "petal_area"
+    ],
+    "classes": [
+      "Iris-setosa",
+      "Iris-versicolor",
+      "Iris-virginica"
+    ]
+  },
+  "sample_inputs": [
+    {
+      "description": "Sample input for Iris-setosa",
+      "input": {
+        "sepal_length": 5.1,
+        "sepal_width": 3.5,
+        "petal_length": 1.4,
+        "petal_width": 0.2
+      }
+    },
+    {
+      "description": "Sample input for Iris-versicolor",
+      "input": {
+        "sepal_length": 6.0,
+        "sepal_width": 2.7,
+        "petal_length": 4.9,
+        "petal_width": 1.8
+      }
+    },
+    {
+      "description": "Sample input for Iris-virginica",
+      "input": {
+        "sepal_length": 6.7,
+        "sepal_width": 3.0,
+        "petal_length": 5.2,
+        "petal_width": 2.3
+      }
+    }
+  ]
+}
