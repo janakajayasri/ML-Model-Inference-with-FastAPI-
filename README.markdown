@@ -35,8 +35,3 @@ This project implements a FastAPI application for classifying Iris flower specie
 - **Model Info (GET /model-info)**:
   - Request: `curl -X GET "http://localhost:8000/model-info"`
   - Response: `{"model_type": "RandomForestClassifier", "problem_type": "classification", "features": ["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm", "sepal_area", "petal_area"]}`
-
-## Notes
-- Ensure `Iris.csv` is in the same directory as the notebook.
-- The API includes confidence scores (max probability) for bonus points.
-- Upload all files to a GitHub repository. Expected accuracy is ~95-98% based on cross-validation.
